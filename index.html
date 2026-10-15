@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+            name="description"
+            content="The personal portfolio of Layan Alshanbari, a student and beginner web developer."
+    >
+
+    <title>Layan Alshanbari | Personal Portfolio</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+<header>
+    <nav aria-label="Main navigation">
+        <a href="#home">Layan</a>
+
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button id="theme-toggle" type="button">
+            Dark Mode
+        </button>
+    </nav>
+</header>
+
+<main>
+    <section id="home">
+        <p id="greeting">Welcome!</p>
+
+        <h1>Hello, I am Layan Alshanbari</h1>
+
+        <p>Computer Science Student Exploring Web Development</p>
+
+        <a href="#projects">View My Projects</a>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+
+        <p class="about-text">
+            I am a computer science student at KFUPM. This semester, I am taking
+            SWE 363, which has sparked my interest in web development. By the end
+            of the semester, I hope to develop a professional website.
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="projects-container">
+            <article class="project-card">
+                <img
+                        src="assets/images/project-1.svg"
+                        alt="Illustration of the KFUPM Events App"
+                >
+
+                <h3>KFUPM Events App</h3>
+
+                <p>
+                    A application that brings together entertainment and educational events on campus. It displays details for each event and allows users to book tickets and rate the events. It also enables organizers to add upcoming events and manage registration dates—including opening and closing registration.
+                </p>
+            </article>
+
+            <article class="project-card">
+                <img
+                        src="assets/images/project-2.svg"
+                        alt="Illustration of the Smart Traffic Light project"
+                >
+
+                <h3>Smart traffic light</h3>
+
+                <p>
+                    A program developed in assembly language that counts vehicles and
+                    changes the traffic signal when road congestion is detected.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form id="contact-form">
+            <div>
+                <label for="name">Name</label>
+                <input
+                        id="name"
+                        name="name"
+                        type="text"
+                        required
+                >
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input
+                        id="email"
+                        name="email"
+                        type="email"
+                        required
+                >
+            </div>
+
+            <div>
+                <label for="message">Message</label>
+                <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        required
+                ></textarea>
+            </div>
+
+            <button type="submit">Submit</button>
+
+            <p id="form-status" aria-live="polite"></p>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Layan Alshanbari. All rights reserved.</p>
+</footer>
+</body>
+</html>

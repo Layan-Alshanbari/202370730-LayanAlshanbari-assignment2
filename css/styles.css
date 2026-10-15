@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    color: #302330;
+    background-color: #fff8fd;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+/* Navigation */
+
+header {
+     background-color: #ffc2f4;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    max-width: 1000px;
+    margin: auto;
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav a {
+    color: #302330;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Main sections */
+
+section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 3rem 1rem;
+}
+
+#home {
+    background-color: #ecc2ff;
+    text-align: center;
+}
+
+#home a,
+button {
+    display: inline-block;
+    padding: 0.7rem 1rem;
+    color: white;
+    background-color: #70315f;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.about-text {
+    padding: 1rem;
+    background-color: #ffc2d5;
+    border-radius: 8px;
+}
+
+/* Projects */
+
+.projects-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.project-card {
+    padding: 1rem;
+    background-color: white;
+    border: 2px solid #ffc2f4;
+    border-radius: 8px;
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+/* Contact form */
+
+#contact-form {
+    max-width: 600px;
+    padding: 1rem;
+    background-color: white;
+    border: 2px solid #ecc2ff;
+    border-radius: 8px;
+}
+
+#contact-form div {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.3rem;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 0.7rem;
+    border: 1px solid #70315f;
+    border-radius: 5px;
+}
+
+/* Footer */
+
+footer {
+    padding: 1rem;
+    background-color: #ffc2d5;
+    text-align: center;
+}
+
+/* Tablet and desktop */
+
+@media (min-width: 768px) {
+    .projects-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+/* Dark mode */
+
+body.dark-mode {
+    color: #f8edf8;
+    background-color: #1f1a24;
+}
+
+body.dark-mode header,
+body.dark-mode footer {
+    background-color: #382b3b;
+}
+
+body.dark-mode #home {
+    background-color: #49354f;
+}
+
+body.dark-mode .about-text {
+    background-color: #4a3546;
+}
+
+body.dark-mode .project-card,
+body.dark-mode #contact-form {
+    background-color: #2c2530;
+    border-color: #ecc2ff;
+}
+
+body.dark-mode nav a {
+    color: #ffffff;
+}
+
+body.dark-mode input,
+body.dark-mode textarea {
+    color: #ffffff;
+    background-color: #403645;
+    border-color: #ecc2ff;
+}
