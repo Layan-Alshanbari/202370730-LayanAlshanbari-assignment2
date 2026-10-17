@@ -1,4 +1,4 @@
-# Personal Portfolio – Assignment 1
+# Personal Portfolio – Assignment 2
 
 ## Project Description
 

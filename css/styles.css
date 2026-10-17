@@ -8,15 +8,16 @@ html {
 
 body {
     margin: 0;
-    color: #302330;
-    background-color: #fff8fd;
+    color: #1F2937;
+    background-color: #F8FAFC;
     font-family: Arial, sans-serif;
     line-height: 1.6;
 }
+
 /* Navigation */
 
 header {
-     background-color: #ffc2f4;
+    background-color: #E2E8F0;
 }
 
 nav {
@@ -39,7 +40,7 @@ nav ul {
 }
 
 nav a {
-    color: #302330;
+    color: #1D4ED8;
     font-weight: bold;
     text-decoration: none;
 }
@@ -53,7 +54,7 @@ section {
 }
 
 #home {
-    background-color: #ecc2ff;
+    background-color: #E2E8F0;
     text-align: center;
 }
 
@@ -62,16 +63,21 @@ button {
     display: inline-block;
     padding: 0.7rem 1rem;
     color: white;
-    background-color: #70315f;
+    background-color: #1D4ED8;
     border: none;
     border-radius: 6px;
     text-decoration: none;
     cursor: pointer;
 }
 
+button:hover,
+#home a:hover {
+    background-color: #1E40AF;
+}
+
 .about-text {
     padding: 1rem;
-    background-color: #ffc2d5;
+    background-color: #E2E8F0;
     border-radius: 8px;
 }
 
@@ -85,8 +91,8 @@ button {
 
 .project-card {
     padding: 1rem;
-    background-color: white;
-    border: 2px solid #ffc2f4;
+    background-color: #FFFFFF;
+    border: 2px solid #CBD5E1;
     border-radius: 8px;
 }
 
@@ -100,8 +106,8 @@ button {
 #contact-form {
     max-width: 600px;
     padding: 1rem;
-    background-color: white;
-    border: 2px solid #ecc2ff;
+    background-color: #FFFFFF;
+    border: 2px solid #CBD5E1;
     border-radius: 8px;
 }
 
@@ -119,7 +125,7 @@ input,
 textarea {
     width: 100%;
     padding: 0.7rem;
-    border: 1px solid #70315f;
+    border: 1px solid #CBD5E1;
     border-radius: 5px;
 }
 
@@ -127,7 +133,7 @@ textarea {
 
 footer {
     padding: 1rem;
-    background-color: #ffc2d5;
+    background-color: #E2E8F0;
     text-align: center;
 }
 
@@ -138,6 +144,7 @@ footer {
         grid-template-columns: 1fr 1fr;
     }
 }
+
 /* Dark mode */
 
 body.dark-mode {

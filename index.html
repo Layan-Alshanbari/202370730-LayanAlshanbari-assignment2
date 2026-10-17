@@ -55,9 +55,14 @@
 
     <section id="projects">
         <h2>My Projects</h2>
+        <div class="project-filters">
+            <button type="button" data-filterr="all">All</button>
+            <button type="button" data-filter="swe">SWE Projects</button>
+            <button type="button" data-filter="coe">COE Projects</button>
+        </div>
 
         <div class="projects-container">
-            <article class="project-card">
+            <article class="project-card" data-category="swe">
                 <img
                         src="assets/images/project-1.svg"
                         alt="Illustration of the KFUPM Events App"
@@ -70,7 +75,7 @@
                 </p>
             </article>
 
-            <article class="project-card">
+            <article class="project-card" data-category="coe">
                 <img
                         src="assets/images/project-2.svg"
                         alt="Illustration of the Smart Traffic Light project"
