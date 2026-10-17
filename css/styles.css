@@ -148,36 +148,41 @@ footer {
 /* Dark mode */
 
 body.dark-mode {
-    color: #f8edf8;
-    background-color: #1f1a24;
+    color: #F8FAFC;
+    background-color: #000000;
 }
 
 body.dark-mode header,
-body.dark-mode footer {
-    background-color: #382b3b;
-}
-
+body.dark-mode footer,
 body.dark-mode #home {
-    background-color: #49354f;
+    background-color: #0014C4;
 }
 
-body.dark-mode .about-text {
-    background-color: #4a3546;
-}
-
+body.dark-mode .about-text,
 body.dark-mode .project-card,
 body.dark-mode #contact-form {
-    background-color: #2c2530;
-    border-color: #ecc2ff;
+    background-color: #111827;
+    border-color: #0014C4;
 }
 
 body.dark-mode nav a {
-    color: #ffffff;
+    color: #FFFFFF;
+}
+
+body.dark-mode #home a,
+body.dark-mode button {
+    color: #FFFFFF;
+    background-color: #0014C4;
+}
+
+body.dark-mode button:hover,
+body.dark-mode #home a:hover {
+    background-color: #1E40AF;
 }
 
 body.dark-mode input,
 body.dark-mode textarea {
-    color: #ffffff;
-    background-color: #403645;
-    border-color: #ecc2ff;
+    color: #FFFFFF;
+    background-color: #111827;
+    border-color: #0014C4;
 }
