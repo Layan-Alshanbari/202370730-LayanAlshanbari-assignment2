@@ -33,13 +33,6 @@ repository-root/
 The HTML uses semantic elements such as `header`, `nav`, `main`, `section`, `article`, `form`, and `footer`.
 
 CSS Flexbox is used for the navigation, while CSS Grid is used for the project cards. On mobile screens, projects appear in one column. At a width of 768 pixels or more, they appear in two columns.
-
-The website uses the following main colors:
-
-- `#FFC2F4`
-- `#ECC2FF`
-- `#FFC2D5`
-
 JavaScript controls the dark/light theme. When the theme button is clicked, the script adds or removes the `dark-mode` class from the page.
 
 ## Accessibility
