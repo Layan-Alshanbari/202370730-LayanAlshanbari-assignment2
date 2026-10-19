@@ -3,7 +3,7 @@
 ## Project Description
 
 This project is a responsive personal portfolio website created using
-HTML, CSS, and JavaScript.
+assignmet 1: HTML, CSS, and JavaScript and modify them and add features.
 
 ## Features
 
@@ -12,6 +12,8 @@ HTML, CSS, and JavaScript.
 - Contact form
 - Responsive design
 - Dark and light mode
+- project filters
+- contact form’s validation and confirmation
 
 ## Technologies Used
 
@@ -29,9 +31,12 @@ HTML, CSS, and JavaScript.
 
 ## AI Usage Summary
 
-ChatGPT was used to help plan the project, explain concepts, review code,
-and improve the documentation. All suggestions were reviewed and modified
-before being included.
+I used ChatGPT as a tutor to understand the assignment, 
+learn how the project filters and contact-form feedback work, choose CSS colors, 
+and debug my code. I implemented and tested the changes in my Assignment 1 project. 
+I did not use the starter portfolio generated earlier in this chat. 
+See [`docs/ai-usage-report.md`](docs/ai-usage-report.md) for the detailed usage log and declaration. 
+I will submit the required AI Evidence ZIP separately through Blackboard; it is not included in this repository.
 
 ## Live Website
 https://layan-alshanbari.github.io/202370730-layanalshanbari-assignment1/
