@@ -42,4 +42,4 @@ I declare that this report and the attached evidence document all of my AI use i
 Name: Layan Alshanbari  
 Student ID: 202370730  
 Date: 2026-10-19  
-Signature: [Sign or type your signature as required]
+Signature: Layan
