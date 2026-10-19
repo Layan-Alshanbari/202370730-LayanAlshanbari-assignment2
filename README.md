@@ -38,9 +38,6 @@ I did not use the starter portfolio generated earlier in this chat.
 See [`docs/ai-usage-report.md`](docs/ai-usage-report.md) for the detailed usage log and declaration. 
 I will submit the required AI Evidence ZIP separately through Blackboard; it is not included in this repository.
 
-## Live Website
-https://layan-alshanbari.github.io/202370730-layanalshanbari-assignment1/
-
 ## Author
 
 Layan Alshanbari
